@@ -1,3 +1,3 @@
 # CursoHtmlCssJs
 
-Aprendendo HTML, CSS, JS
+Aprendendo o básico de HTML, CSS, JS

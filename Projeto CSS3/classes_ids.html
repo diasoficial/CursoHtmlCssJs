@@ -4,22 +4,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inline Style</title>
+    <title>Classes e Ids</title>
     <style type="text/css">
         p {
             color: red;
         }
 
         h1 {
+            color: green;
+        }
+
+        .azul {
             color: blue;
+        }
+
+        #cabecalho {
+            background: green;
         }
     </style>
 </head>
 
 <body>
+    <div>
 
-    <h1>Estilo CSS (cascading style sheets)</h1>
-    <p>
+        <div id="cabecalho">
+            <img src="imagens/logo.png" alt="">
+            <ul>
+                <li>Home</li>
+                <li>Quem somos</li>
+                <li>Contato</li>
+            </ul>
+        </div>
+        <div id="conteúdo principal">
+            <div class="coluna">
+                Coluna 1
+            </div>
+            <div class="coluna">
+                Coluna 2
+            </div>
+            <div class="coluna">
+                Coluna 3
+            </div>
+        </div>
+
+    </div>
+
+    <h1 class="azul">Estilo CSS (cascading style sheets)</h1>
+    <p class="azul">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa reiciendis ex corporis dolores ab. Velit sapiente
         modi quas reprehenderit omnis! Esse ratione officia impedit! Maxime molestias sunt optio eveniet accusamus?
     </p>

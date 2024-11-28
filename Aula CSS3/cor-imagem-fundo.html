@@ -6,17 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cor e imagem de fundo</title>
     <style type="text/css">
-        body {
+        h1 {
+            /*
             background-image: url(img/yoshi.png);
+            */
             /*Repeat, no-repeat, repeat-x ou y*/
-            background-repeat: no-repeat;
+            background-repeat: repeat-x;
             /*Fixed, Scroll*/
             background-attachment: scroll;
+            /*
+            primeiro valor: left, center, right
+            segundo valor: top, center, bottom
+            */
+
+            background-position: center center;
+        }
+
+        .fundo {
+            background: blue url(img/yoshi.png) repeat-x scroll top;
         }
     </style>
 </head>
 
-<body>
+<body class="fundo">
 
     <h1>conteúdo de título 1</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ratione magnam nostrum? Ipsa doloribus, corporis

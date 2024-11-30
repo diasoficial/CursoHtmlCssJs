@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta chatset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos flutuantes na prática</title>
+    <style type="text/css">
+        body {
+            background: #f4f4f4;
+        }
+
+        #principal {
+            width: 920px;
+        }
+
+        .noticia {
+            background: #e5e5e5;
+            padding: 5px;
+            padding-bottom: 20px;
+            width: 280px;
+            margin: 7px;
+            float: left;
+        }
+
+        .imagem-galeria {
+            background: white;
+            width: 265px;
+            padding: 5px;
+            margin: 15px;
+            float: left;
+        }
+
+        .clear {
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="principal">
+        <div>
+            <div class="noticia">
+                <h2>Lorem ipsum 1</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae doloremque temporibus similique
+                    enim?
+                    Qui culpa mollitia, sunt quidem magnam doloremque consequuntur debitis maiores laborum magni at
+                    atque
+                    alias non eius!
+                </p>
+                <a href="#">veja mais</a>
+            </div>
+            <div class="noticia">
+                <h2>Lorem ipsum 2</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae doloremque temporibus similique
+                    enim?
+                    Qui culpa mollitia, sunt quidem magnam doloremque consequuntur debitis maiores laborum magni at
+                    atque
+                    alias non eius!
+                </p>
+                <a href="#">veja mais</a>
+            </div>
+            <div class="noticia">
+                <h2>Lorem ipsum 3</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae doloremque temporibus similique
+                    enim?
+                    Qui culpa mollitia, sunt quidem magnam doloremque consequuntur debitis maiores laborum magni at
+                    atque
+                    alias non eius!
+                </p>
+                <a href="#">veja mais</a>
+            </div>
+            <div class="clear"></div><!--Limpar fluxo flutuante-->
+            <div>
+                <div class="imagem-galeria">
+                    <img src="imagens/imagem1.png">
+                    <p>Resumo</p>
+                </div>
+                <div class="imagem-galeria">
+                    <img src="imagens/imagem2.png">
+                    <p>Resumo</p>
+                </div>
+                <div class="imagem-galeria">
+                    <img src="imagens/imagem3.png">
+                    <p>Resumo</p>
+                </div>
+                <div class="imagem-galeria">
+                    <img src="imagens/imagem4.png">
+                    <p>Resumo</p>
+                </div>
+                <div class="imagem-galeria">
+                    <img src="imagens/imagem5.png">
+                    <p>Resumo</p>
+                </div>
+            </div><!--Fim imagens-->
+        </div><!--Fim div-->
+    </div> <!--Fim div #principal-->
+</body>
+
+</html>

@@ -1,0 +1,124 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: #CAD2C5;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#menu {
+    background: #84A98C;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear {
+    clear: both;
+}
+
+.logo {
+    padding: 35px;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.logo a:visited,
+.logo a:link,
+.logo a:active {
+    color: #2F3E46;
+}
+
+.menu-secundario {
+    padding: 25px;
+    text-align: center;
+}
+
+.menu-secundario a {
+    padding: 12px;
+    font-size: .9em;
+    font-weight: 600;
+}
+
+.menu-secundario a:visited,
+.menu-secundario a:link,
+.menu-secundario a:active {
+    color: #2F3E46;
+}
+
+.menu-secundario a:hover {
+    background: #2F3E46;
+    color: #84A98C;
+}
+
+#conteudo-primario {
+    background: #fff;
+    margin: 25px 25px;
+    width: 960px;
+    float: left;
+}
+
+#conteudos {
+    width: 1420px;
+    margin: 0px auto;
+}
+
+.conteudo {
+    padding: 25px;
+}
+
+.conteudo h2 {
+    color: #84A98C;
+}
+
+.conteudo .titulo {
+    padding: 0px 0px 15px 0px;
+}
+
+.conteudo img {
+    width: 900px;
+}
+
+#conteudo-secundario {
+    background: #fff;
+    margin: 25px 0px 0px 0px;
+    width: 350px;
+    padding: 15px 15px;
+    float: left;
+}
+
+.titulo2 {
+    background: #84A98C;
+    color: #2F3E46;
+    padding: 10px 5px;
+}
+
+.recentes p {
+    padding: 10px 0px 0px 0px;
+}
+
+hr {
+    margin-top: 10px;
+
+}
+
+.categorias a {
+    display: block;
+    padding-top: 10px;
+}
+
+.categorias a:visited,
+.categorias a:link,
+.categorias a:active {
+    color: #84A98C;
+}
+
+.footer {
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+}

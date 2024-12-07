@@ -1,3 +1,3 @@
 # CursoHtmlCssJs
 
-Aprendendo HTML, CSS, JS - Commits diarios nesse projeto.
+Commits diarios aprendendo HTML, CSS, JS.

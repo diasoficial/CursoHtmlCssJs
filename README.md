@@ -1,3 +1,3 @@
 # CursoHtmlCssJs
 
-Aprendendo o básico de HTML, CSS, JS
+Commits diarios aprendendo HTML, CSS, JS.
